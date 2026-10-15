@@ -40,7 +40,7 @@ class Ant{
   if(myY<mouseY){
     myY+=5+stepY;
   }
-  else myY-=5-stepX;
+  else myY-=5-stepY;
   if(myX==mouseX&&myY==mouseY&&s>=.00001){
     s-=.1;
    }
