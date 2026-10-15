@@ -1,5 +1,5 @@
 Ant[] bob;
-float s=1;
+float s=.8;
 void setup(){
   frameRate(10);
   size(500,500);
