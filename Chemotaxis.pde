@@ -2,7 +2,7 @@ Ant[] bob;
 float s=1;
 void setup(){
   frameRate(10);
-  size(1000,1000);
+  size(500,500);
   bob= new Ant[30];
   for(int i=0;i<bob.length;i++){
     bob[i]=new Ant();
